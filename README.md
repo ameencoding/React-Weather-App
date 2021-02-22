@@ -1,5 +1,5 @@
 # react_weather_app
-a simple react weather app that allows you to find out any city and recieved back to the coutry of that city.
+a simple react weather app that allows you to find out any city and recieved back to the country of that city.
 
 #install dependencies
  1: npm i
