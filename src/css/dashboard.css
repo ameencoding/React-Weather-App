@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento&display=swap');
+.weather {
+  margin: 10px auto;
+  width: 60vw;
+  height: 80vh;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(39, 75, 104, 0.945),
+    rgba(13, 41, 65, 0.945)
+  );
+  border: 1px solid rgb(16, 8, 58);
+  border-radius: 5px;
+}
+
+.form {
+  padding: 10px;
+}
+
+.form button,
+input {
+  border: 1px solid #7fffd4;
+  border-radius: 5px;
+  outline: none;
+  margin: 6px;
+  padding: 6px;
+}
+
+.form button {
+  transition: 0.4s;
+  background-color: #72a37d;
+}
+
+.form button:hover {
+  transition: 0.4s;
+  color: lightblue;
+}
+
+.temp {
+  font-family: 'Quattrocento', sans-serif;
+  margin: 30px auto;
+  width: 30vw;
+  height: 40vh;
+}
+.temp .temp_text {
+  color: lightblue;
+  font-size: 140px;
+  margin: auto;
+}
+
+.temp .temp_text span {
+  color: #808f58;
+  font-size: 80px;
+}
+
+.footer {
+  margin: 60px auto;
+}
+
+.footer ul {
+  display: flex;
+  justify-content: center;
+}
+.footer ul li {
+  border: 0.4px solid lightblue;
+  color: lightblue;
+  border-radius: 5px;
+  padding: 5px;
+  list-style: none;
+  margin: 10px;
+}
+
+.footer ul li span {
+  padding: 1px;
+  border-radius: 3px;
+  background-color: slategrey;
+}

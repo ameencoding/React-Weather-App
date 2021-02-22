@@ -1,0 +1,59 @@
+@media only screen and (max-width: 600px) {
+  .h3_title {
+    font-size: 15px;
+  }
+  .weather {
+    margin: 10px auto;
+    width: 60vw;
+    height: 80vh;
+  }
+
+  .temp {
+    width: 50vw;
+  }
+  .temp .temp_text {
+    font-size: 70px;
+  }
+
+  .footer {
+    margin: -130px auto;
+  }
+
+  .footer ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer ul li {
+    margin-left: -12%;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+  .h3_title {
+    font-size: 22px;
+  }
+  .temp {
+    width: 50vw;
+  }
+  .temp .temp_text {
+    font-size: 100px;
+  }
+
+  .footer {
+    margin: -95px auto;
+  }
+
+  .footer ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer ul li {
+    margin-left: -7%;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .footer {
+    margin: 40px auto;
+  }
+}
